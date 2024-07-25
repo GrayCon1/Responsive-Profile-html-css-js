@@ -198,6 +198,27 @@ section{
   width:8rem;
   border-radius: 2rem;
 }
-.btn-colour-1,.btn-color{
-  
+.btn-colour-1,.btn-colour-2{
+  border: rgb(53, 53, 53) 0.1 rem solid;
+}
+.btn-colour-1:hover,.btn-colour-2:hover{
+ cursor: pointer;
+}
+.btn-colour-1,.btn-colour-2:hover{
+ background: rgb(53, 53, 53);
+ color: white;
+}
+.btn-colour-1:hover{
+  background: rgb(0,0,0);
+}
+.btn-colour-2{
+  background: none;
+}
+
+.btn-colour-2:hover{
+  border: rgb(255, 255, 255) 0.1 rem solid;
+}
+
+.btn-container{
+  gap:1rem
 }
