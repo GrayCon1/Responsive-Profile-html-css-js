@@ -9,6 +9,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -176,7 +180,7 @@ section{
   gap:1rem;
 }
 
-.image-cropper {
+/*.image-cropper {
   max-width: 100px;
   height: auto;
   position: relative;
@@ -189,8 +193,12 @@ section{
   height: auto;
   width: 150%; 
   margin: 0 0 0 -20%;
-  
-}
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;  
+}*/
 /* Icons */
 
 .icon{
@@ -200,42 +208,51 @@ section{
 
 /* Buttons */
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.btn{
+.btn {
   font-weight: 600;
-  transition: all 300 ease;
-  padding:1rem;
-  width:8rem;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
-.btn-colour-1,.btn-colour-2{
-  border: rgb(53, 53, 53) 0.1 rem solid;
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
-.btn-colour-1:hover,.btn-colour-2:hover{
- cursor: pointer;
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
 }
-.btn-colour-1,.btn-colour-2:hover{
- background: rgb(53, 53, 53);
- color: white;
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
 }
-.btn-colour-1:hover{
-  background: rgb(0,0,0);
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
 }
-.btn-colour-2{
+
+.btn-color-2 {
   background: none;
 }
 
-.btn-colour-2:hover{
-  border: rgb(255, 255, 255) 0.1 rem solid;
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container{
-  gap:1rem
+.btn-container {
+  gap: 1rem;
 }
 
 /* About Section */
