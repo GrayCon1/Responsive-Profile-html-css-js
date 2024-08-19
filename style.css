@@ -9,7 +9,47 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.dark-mode {
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --link-color: #8ab4f8;
+    --button-background-color: #333333;
+    --button-text-color: #e0e0e0;
+    --button-border-color: #8ab4f8;
+    --button-hover-background-color: #8ab4f8;
+    --button-hover-text-color: #333333;
+    --button-hover-border-color: #333333;
+    --project-background-color: #333333;
+    --project-text-color: #e0e0e0;
+    --project-border-color: #8ab4f8;
+    --project-hover-background-color: #8ab4f8;
+    --project-hover-text-color: #333333;
+    --project-hover-border-color: #333333;
+    --contact-background-color: #333333;
+    --contact-text-color: #e0e0e0;
+    --contact-border-color: #8ab4f8;
+    --footer-background-color: #333333;
+    --footer-text-color: #e0e0e0;
+    --footer-border-color: #8ab4f8;
+    --footer-link-color: #8ab4f8;
+    --footer-link-hover-color: #333333;
+    --footer-link-hover-background-color: #8ab4f8;
+    --footer-link-hover-border-color: #333333;
+    --footer-link-border-color: #8ab4f8;
+    --footer-link-text-color: #e0e0e0;
+
+    --nav-background-color: #333333;
+    --nav-text-color: #e0e0e0;
+    --nav-link-color: #8ab4f8;
+    --nav-link-hover-color: #333333;
+    --nav-link-hover-background-color: #8ab4f8;
+    --nav-link-hover-border-color: #333333;
+    --nav-link-border-color: #8ab4f8;
+    --nav-link-text-color: #e0e0e0; 
+    
+    
+
+
   background-color: black;
   color: white;
 }
